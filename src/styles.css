@@ -1,0 +1,53 @@
+/* Remove default decoration */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation-list {
+  background-color: honeydew;
+  display: flex;
+  padding: 10px;
+}
+
+.navigation-item {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: violet;
+  color: wheat;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navigation-link {
+  color: wheat;
+}
+
+/* Remove default decoration */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cards-list {
+  display: flex;
+  justify-content: center;
+  border: 1px solid lawngreen;
+  width: 660px;
+}
+
+.card {
+  border: 1px dashed cadetblue;
+  padding: 10px;
+  width: 80px;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+}
